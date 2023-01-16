@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+
 public class Bk_1475 {
 
 	public static void main(String[] args) {
