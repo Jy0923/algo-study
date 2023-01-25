@@ -3,6 +3,8 @@ import java.util.Scanner;
 public class Yy_25501 {
 	// 재귀의귀재귀의귀재귀의귀재
 	
+	// 집가서 더풀어보고 수정할예정
+	
 	static int cnt = 0;
 	
     public static int recursion(String s, int l, int r){
