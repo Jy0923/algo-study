@@ -1,5 +1,3 @@
-package silver.s3;
-
 import java.util.Scanner;
 
 public class No15650 {
