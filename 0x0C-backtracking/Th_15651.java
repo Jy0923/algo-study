@@ -1,10 +1,9 @@
 import java.util.Scanner;
 
 public class Th_15651 {
-	
-	static int N;
-	static int M;
-	static int[] arr;
+	static int N; // 1부터 N까지의 자연수
+	static int M; // 배열의 길이
+	static int[] arr; // 배열
 	static StringBuilder answer = new StringBuilder();
 	
 	public static void main(String[] args) {
@@ -20,6 +19,7 @@ public class Th_15651 {
 	}
 	
 	private static void tracking(int cnt) {
+		//배열 완성되면 StringBuilder에 담기
 		if(cnt == M) {
 			for(Integer i : arr) {
 				answer.append(i).append(" ");
