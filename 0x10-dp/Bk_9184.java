@@ -2,7 +2,7 @@ package dp;
 
 import java.util.Scanner;
 
-public class Bk_9148 {
+public class Bk_9184 {
 
 	static int[][][] dp = new int[21][21][21];
 
