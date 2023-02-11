@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-// RGB 거리
+// RGB 거리 
 public class No1149 {
 	
 	static int n;
