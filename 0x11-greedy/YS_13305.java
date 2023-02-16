@@ -5,20 +5,20 @@ import java.util.Arrays;
 import java.util.StringTokenizer;
 
 public class Main {
-	static int[] distance;
-	static int[] price;
+	static long[] distance;
+	static long[] price;
 
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		int n = Integer.parseInt(br.readLine());
-		distance = new int[n - 1];
-		price = new int[n];
+		distance = new long[n - 1];
+		price = new long[n];
 
 		StringTokenizer st = new StringTokenizer(br.readLine());
 
 		// 거리 배열을 받고
 		for (int i = 0; i < n - 1; i++) {
-			distance[i] = Integer.parseInt(st.nextToken());
+			distance[i] = Long.parseLong(st.nextToken());
 		}
 
 		st = new StringTokenizer(br.readLine());
@@ -26,15 +26,15 @@ public class Main {
 
 		// 가격 배열을 받는다.
 		for (int i = 0; i < n; i++) {
-			price[i] = Integer.parseInt(st.nextToken());
+			price[i] = Long.parseLong(st.nextToken());
 
 		}
 
 
 		// 최소, 최소인덱스, 결과 변수를 선언한다.
-		int min;
+		long min;
 		int minIdx = 0;
-		int result = 0;
+		long result = 0;
 
 		// 최소인덱스가 n이 되기 전까지
 		Loop1: while (minIdx < n) {
@@ -92,4 +92,3 @@ public class Main {
 	}
 
 }
-// 58점... 이 애매한 점수는 무엇인가...
