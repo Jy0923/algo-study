@@ -8,7 +8,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-public class No1926_그림 {
+public class No1926_그림_유녕 {
 	
 	static int n, m;
 	static int[][] map;
