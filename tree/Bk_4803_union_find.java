@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.List;
 
-public class Bk_4803 {
+public class Bk_4803_union_find {
 
 	static int N, M;
 
